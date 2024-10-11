@@ -1,0 +1,13 @@
+train:  C:\Python projects\Data\Mask Wearing.v18-v3-augmented5x-fast.yolov8\train\images
+val:
+test: C:\Python projects\Data\Mask Wearing.v18-v3-augmented5x-fast.yolov8\test\images
+
+nc: 2
+names: ['mask', 'no-mask']
+
+roboflow:
+  workspace: joseph-nelson
+  project: mask-wearing
+  version: 18
+  license: Public Domain
+  url: https://universe.roboflow.com/joseph-nelson/mask-wearing/dataset/18
